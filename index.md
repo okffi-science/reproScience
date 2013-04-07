@@ -1,6 +1,6 @@
 ---
-title       : Git and reproducible science
-subtitle    : Valuable addition to scientist's toolbox
+title       : Reproducible research
+subtitle    : Concepts and tools
 author      : Joona Lehtomäki
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
