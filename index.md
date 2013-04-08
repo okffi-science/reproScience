@@ -1,6 +1,6 @@
 ---
 title       : Reproducible research
-subtitle    : Concepts and tools
+subtitle    : Few concepts and a couple of tools
 author      : Joona Lehtomäki
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -93,6 +93,38 @@ Sirkiä et al. 2012
 
 <iframe src="http://bit.ly/10FnSHI"></iframe>
 
+--- #rstudio1
+
+## Tools for reproducible research
+
+<br />
+
+<img src="http://bit.ly/Z2DkiR" class="centered-img" style="max-height:50%;" title="RStudio, GPLv3"></img>
+
+--- #rstudio2 bg:url(assets/img/rstudio_analysis.png) bg-repeat:no-repeat bg-position:center
+
+--- #rstudio3 &notitle
+
+<br />
+<br />
+
+<img src="assets/img/tech_logos.png" class="centered-img" style="max-height:100%;" title="RStudio, GPLv3"></img>
+
+--- #rstudio4
+
+## Reproducible?
+
+> * Automatically regenerate documents when code, data, or assumptions change
+> * Eliminate transposition errors that occur when copying results into documents
+> * Preserve contextual narrative about why analysis was performed in a certain fashion
+> * Documentation for the analytic and computational processes from which conclusions are drawn
+
+Xie, 2012
+
+--- #rstudio5 bg:url(assets/img/rstudio_knitr_input.png) bg-repeat:no-repeat bg-position:center
+
+--- #rstudio6 bg:url(assets/img/rstudio_knitr_output.png) bg-repeat:no-repeat bg-position:center
+
 ---
 
 ## Some R-code
@@ -124,6 +156,14 @@ qplot(speed, dist, data = cars) + geom_smooth()
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
+
+--- #git1
+
+## Tools for reproducible research
+
+<br />
+
+<img src="http://bit.ly/Z2DNBq" class="centered-img" style="max-height:50%;" title="Jason Long, CC-BY 3.0, via Wikimedia Commons"></img>
 
 --- &image
 
