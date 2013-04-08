@@ -3,8 +3,9 @@ article p, article li, article li.build {
 	font-size: 32px;
 }
 
-.reference {
-	font-size: 22px;
+.reference li {
+	font-size: 18px;
+	text-align: left;
 }
 
 .centered-img {

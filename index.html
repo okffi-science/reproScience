@@ -34,12 +34,45 @@
     <slide class="title-slide segue nobackground">
       <hgroup class="auto-fadein">
         <h1>Reproducible research</h1>
-        <h2>Few concepts and a couple of tools</h2>
+        <h2>Few concepts and a couple of tools, v0.1</h2>
         <p>Joona Lehtomäki<br/></p>
       </hgroup>
           </slide>
 
     <!-- SLIDES -->
+      <slide class="" id="license" style="background:; background-repeat:; background-position:;">
+  <hgroup>
+    <h2>CC-BY</h2>
+  </hgroup>
+  <article>
+    <p><img src="assets/img/ccby_badge.png" class="centered-img" title="Dan McGlin, CC-BY 3.0"></img></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="attribution" style="background:; background-repeat:; background-position:;">
+  <hgroup>
+    <h2>Attribution</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li><a href="https://github.com/johnmcdonnell/Git-Tutorial">Git tutorial</a> by John McDonnel</li>
+<li><a href="https://github.com/ethanwhite/USU-SWC-Bootcamp/blob/master/version_control_slides.pdf">Introduction to Version Control with a focus on Git</a> by Dan McGlinn</li>
+<li><a href="https://github.com/karthikram/smb_git">Reproducible research in computational science</a> by Karthik Ram</li>
+<li><a href="https://github.com/yihui/yihui.github.com/blob/master/slides/2012-knitr-RStudio.html">knitr and RStudio</a> by Yihui Xie</li>
+</ul>
+
+<h3>Sources for this presentationa available at</h3>
+
+<ul>
+<li><a href="https://github.com/jlehtoma/reproScience">Reproducible research: Concepts and tools</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
       <slide class="" id="content">
 <hgroup>
   <h2>Content</h2>
@@ -90,9 +123,9 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-4" style="background:black;">
+      <slide class="" id="slide-6" style="background:black;">
   <article>
-    <p><img src="http://bit.ly/10FmaGf" class="centered-img" title="By G.emmerich (Own work) CC-BY-SA-3.0, via Wikimedia Commons"></img></p>
+    <p><img src="http://bit.ly/10FmaGf" class="centered-img"></img></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -106,7 +139,7 @@
     <ul class = "build">
 <li>With replication, independent investigators address a scientific hypothesis and build up evidence for or against it (Peng, 2011)</li>
 <li>Allows others to build upon existing work and use it to test new ideas and develop methods (Ram, 2013)</li>
-<li>While currently there is unilateral emphasis on &quot;first&quot; discoveries, there should be as much emphasis on replication of discoveries (Ioannidis, 2005)</li>
+<li>While currently there is unilateral emphasis on &quot;first&quot; discoveries, there should be as much emphasis on replication of discoveries (<a href="http://www.telegraph.co.uk/technology/3342867/Is-the-spirit-of-Piltdown-man-alive-and-well.html">Ioannidis, 2005</a>)</li>
 </ul>
 
   </article>
@@ -139,7 +172,17 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="problems5" style="background:; background-repeat:; background-position:;">
+      <slide class="" id="problems3" style="background:url(assets/img/reproducibility_initiative.png); background-repeat:no-repeat; background-position:center;">
+  <hgroup>
+    
+  </hgroup>
+  <article>
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="problems4" style="background:; background-repeat:; background-position:;">
   <hgroup>
     
   </hgroup>
@@ -152,7 +195,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="problems6" style="background:; background-repeat:; background-position:;">
+      <slide class="" id="problems5" style="background:; background-repeat:; background-position:;">
   <hgroup>
     
   </hgroup>
@@ -198,7 +241,7 @@
 <li>Documentation for the analytic and computational processes from which conclusions are drawn</li>
 </ul>
 
-<p>Xie, 2012</p>
+<p><a href="https://github.com/yihui/yihui.github.com">Xie, 2012</a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -240,8 +283,8 @@
     
   </hgroup>
   <article>
-    <p><span style="position: fixed; bottom: 100px;">
-Adapted from Markus Kainu
+    <p><span style="position: fixed; bottom: 75px;">
+Adapted from <a href="http://markuskainu.fi/r-tutorial/repro/suomeksi.html">Markus Kainu</a>
 </span></p>
 
   </article>
@@ -340,6 +383,8 @@ qplot(speed, dist, data = cars) + geom_smooth()
 <li>...It also stores the relationships between those snapshots</li>
 </ul>
 
+<p><a href="https://github.com/johnmcdonnell/Git-Tutorial">McDonnel, 2012</a></p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -381,7 +426,7 @@ qplot(speed, dist, data = cars) + geom_smooth()
 
 <p><br /></p>
 
-<p>Ram (2013)</p>
+<p>Ram, 2013</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -430,14 +475,17 @@ qplot(speed, dist, data = cars) + geom_smooth()
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="reference" style="background:; background-repeat:; background-position:;">
+      <slide class="reference" id="reference" style="background:; background-repeat:; background-position:;">
   <hgroup>
-    <h3>Reference:</h3>
+    <h3>References:</h3>
   </hgroup>
   <article>
-    <div class="reference">
-[1] Ram K. (2013): Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine [Internet]. [cited 2013 Mar 1];8(1):7. Available from: http://www.scfbm.org/content/8/1/7.
-</div>
+    <ol>
+<li>Peng RD (2011): Reproducible research in computational science. Science. 334(6060):1226–7. Available from: <a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3383002&amp;tool=pmcentrez&amp;rendertype=abstract">http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3383002&amp;tool=pmcentrez&amp;rendertype=abstract</a><br></li>
+<li>Ram K. (2013): Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine. 8(1):7. Available from: <a href="http://www.scfbm.org/content/8/1/7">http://www.scfbm.org/content/8/1/7</a><br></li>
+<li>Sirkiä S, Lehtomäki J, Lindén H, Tomppo E, Moilanen A (2012): Defining spatial priorities for capercaillie Tetrao urogallus lekking landscape conservation in south-central Finland. Wildlife Biology. 2012;18(4):337–53. </li>
+<li>Wolkovich EM, Regetz J, O’Connor MI (2012): Advances in global change research require open science by individual researchers. Global Change Biology. 18(7):2102–10. Available from: <a href="http://doi.wiley.com/10.1111/j.1365-2486.2012.02693.x">http://doi.wiley.com/10.1111/j.1365-2486.2012.02693.x</a></li>
+</ol>
 
   </article>
   <!-- Presenter Notes -->

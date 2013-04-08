@@ -1,6 +1,6 @@
 ---
 title       : Reproducible research
-subtitle    : Few concepts and a couple of tools
+subtitle    : Few concepts and a couple of tools, v0.1
 author      : Joona Lehtomäki
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -8,6 +8,26 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+
+--- #license
+
+## CC-BY
+
+<img src="assets/img/ccby_badge.png" class="centered-img" title="Dan McGlin, CC-BY 3.0"></img>
+
+--- #attribution
+
+## Attribution
+
+* [Git tutorial](https://github.com/johnmcdonnell/Git-Tutorial) by John McDonnel
+* [Introduction to Version Control with a focus on Git](https://github.com/ethanwhite/USU-SWC-Bootcamp/blob/master/version_control_slides.pdf) by Dan McGlinn
+* [Reproducible research in computational science](https://github.com/karthikram/smb_git) by Karthik Ram
+* [knitr and RStudio](https://github.com/yihui/yihui.github.com/blob/master/slides/2012-knitr-RStudio.html) by Yihui Xie
+
+### Sources for this presentationa available at
+
+* [Reproducible research: Concepts and tools](https://github.com/jlehtoma/reproScience)
+
 
 --- #content &vcenter
 
@@ -39,7 +59,7 @@ mode        : selfcontained # {standalone, draft}
 
 --- &notitle bg:black
 
-<img src="http://bit.ly/10FmaGf" class="centered-img" title="By G.emmerich (Own work) CC-BY-SA-3.0, via Wikimedia Commons"></img>
+<img src="http://bit.ly/10FmaGf" class="centered-img"></img>
 
 --- #concepts
 
@@ -47,7 +67,7 @@ mode        : selfcontained # {standalone, draft}
 
 > * With replication, independent investigators address a scientific hypothesis and build up evidence for or against it (Peng, 2011)
 > * Allows others to build upon existing work and use it to test new ideas and develop methods (Ram, 2013)
-> * While currently there is unilateral emphasis on "first" discoveries, there should be as much emphasis on replication of discoveries (Ioannidis, 2005)
+> * While currently there is unilateral emphasis on "first" discoveries, there should be as much emphasis on replication of discoveries ([Ioannidis, 2005](http://www.telegraph.co.uk/technology/3342867/Is-the-spirit-of-Piltdown-man-alive-and-well.html))
 
 --- #problems1 
 
@@ -61,13 +81,15 @@ Wolkovich et al. 2012
 
 Peng 2011
 
---- #problems5
+--- #problems3 bg:url(assets/img/reproducibility_initiative.png) bg-repeat:no-repeat bg-position:center
+
+--- #problems4
 
 <img src="assets/img/sirkia_et_al_workflow.png" class="centered-img" style="margin-left: 0; float: left;" title="Sirkiä et al. 2012"></img>
 
 Sirkiä et al. 2012
 
---- #problems6
+--- #problems5
 
 <iframe src="http://bit.ly/10FnSHI"></iframe>
 
@@ -90,7 +112,7 @@ Sirkiä et al. 2012
 > * Preserve contextual narrative about why analysis was performed in a certain fashion
 > * Documentation for the analytic and computational processes from which conclusions are drawn
 
-Xie, 2012
+[Xie, 2012](https://github.com/yihui/yihui.github.com)
 
 --- #rstudio4 &notitle
 
@@ -105,8 +127,8 @@ Xie, 2012
 
 --- #rstudio7 bg:url(assets/img/knitr_workflow.png) bg-repeat:no-repeat bg-position:center
 
-<span style="position: fixed; bottom: 100px;">
-Adapted from Markus Kainu
+<span style="position: fixed; bottom: 75px;">
+Adapted from [Markus Kainu](http://markuskainu.fi/r-tutorial/repro/suomeksi.html)
 </span>
 
 --- #rstudio8
@@ -169,6 +191,8 @@ qplot(speed, dist, data = cars) + geom_smooth()
 * It stores snapshots of your projects
 * ...It also stores the relationships between those snapshots
 
+[McDonnel, 2012](https://github.com/johnmcdonnell/Git-Tutorial)
+
 --- #git5 &image
 
 <img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" class="centered-img"></img>
@@ -195,7 +219,7 @@ qplot(speed, dist, data = cars) + geom_smooth()
 
 <br />
 
-Ram (2013)
+Ram, 2013
 
 --- #git8
 
@@ -214,9 +238,11 @@ Ram (2013)
 --- #git11 bg:url(assets/img/rstudio_git_history.png) bg-repeat:no-repeat bg-position:center
 
 
---- #reference
+--- #reference .reference
 
-### Reference:
-<div class="reference">
-[1] Ram K. (2013): Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine [Internet]. [cited 2013 Mar 1];8(1):7. Available from: http://www.scfbm.org/content/8/1/7.
-</div>
+### References:
+
+1. Peng RD (2011): Reproducible research in computational science. Science. 334(6060):1226–7. Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3383002&tool=pmcentrez&rendertype=abstract  
+2. Ram K. (2013): Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine. 8(1):7. Available from: http://www.scfbm.org/content/8/1/7  
+3. Sirkiä S, Lehtomäki J, Lindén H, Tomppo E, Moilanen A (2012): Defining spatial priorities for capercaillie Tetrao urogallus lekking landscape conservation in south-central Finland. Wildlife Biology. 2012;18(4):337–53. 
+4. Wolkovich EM, Regetz J, O’Connor MI (2012): Advances in global change research require open science by individual researchers. Global Change Biology. 18(7):2102–10. Available from: http://doi.wiley.com/10.1111/j.1365-2486.2012.02693.x
