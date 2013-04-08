@@ -103,14 +103,7 @@ Sirkiä et al. 2012
 
 --- #rstudio2 bg:url(assets/img/rstudio_analysis.png) bg-repeat:no-repeat bg-position:center
 
---- #rstudio3 &notitle
-
-<br />
-<br />
-
-<img src="assets/img/tech_logos.png" class="centered-img" style="max-height:100%;" title="RStudio, GPLv3"></img>
-
---- #rstudio4
+--- #rstudio3
 
 ## Reproducible?
 
@@ -121,13 +114,26 @@ Sirkiä et al. 2012
 
 Xie, 2012
 
+--- #rstudio4 &notitle
+
+<br />
+<br />
+
+<img src="assets/img/tech_logos.png" class="centered-img" style="max-height:100%;" title="RStudio, GPLv3"></img>
+
 --- #rstudio5 bg:url(assets/img/rstudio_knitr_input.png) bg-repeat:no-repeat bg-position:center
 
 --- #rstudio6 bg:url(assets/img/rstudio_knitr_output.png) bg-repeat:no-repeat bg-position:center
 
----
+--- #rstudio7 bg:url(assets/img/knitr_workflow.png) bg-repeat:no-repeat bg-position:center
 
-## Some R-code
+<span style="position: fixed; bottom: 100px;">
+Adapted from Markus Kainu
+</span>
+
+--- #rstudio8
+
+## More R-code
 
 
 ```r
@@ -146,7 +152,7 @@ summary(cars)
 ##  Max.   :25.0   Max.   :120
 ```
 
---- &notitle
+--- #rstudio8 &notitle
 
 
 ```r
@@ -157,6 +163,11 @@ qplot(speed, dist, data = cars) + geom_smooth()
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
+--- #rstudio9 &vcenter
+
+[**source**](http://bit.ly/Y8y8uO)
+
+
 --- #git1
 
 ## Tools for reproducible research
@@ -165,15 +176,65 @@ qplot(speed, dist, data = cars) + geom_smooth()
 
 <img src="http://bit.ly/Z2DNBq" class="centered-img" style="max-height:50%;" title="Jason Long, CC-BY 3.0, via Wikimedia Commons"></img>
 
---- &image
+--- #git2 bg:url(assets/img/github_linux.png) bg-repeat:no-repeat bg-position:center
+
+--- #git3 bg:url(assets/img/github_landing_page.png) bg-repeat:no-repeat bg-position:center
+
+--- #git4
+
+## What is git? #
+
+<br />
+
+![threecommits](assets/img/threecommits.png)
+
+* It stores snapshots of your projects
+* ...It also stores the relationships between those snapshots
+
+--- #git5 &image
 
 <img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" class="centered-img"></img>
 
---- 
+--- #git6
+
+## Why use git in science?
+
+> 1. Lab notebook
+> 2. Facilitating collaboration
+> 3. Backup and failsafe against data loss
+> 4. Freedom to explore new ideas and methods
+> 5. Mechanism to solicit feedback and reviews
+> 6. Increase transparency and verifiability
+> 7. Managing large data
+> 8. Lowering barriers to reuse
+
+--- #git7 &image
+
+<br />
+<br />
+
+<img src="assets/img/smb_karihikram_git_workflow.png" class="centered-img"></img>
+
+<br />
+
+Ram (2013)
+
+--- #git8
 
 ## Git: steep learning curve?
 
 <img src="http://d22zlbw5ff7yk5.cloudfront.net/images/cm-27811-1508860c9c2366.gif" class="centered-img" style="margin-top: 150px;"></img>
+
+--- #git9
+
+<img src="assets/img/git_cli.png" class="centered-img" title="Nathan de Vries, CC-BY-SA 3.0"></img>
+
+--- #git10
+
+<img src="assets/img/rstudio_git_panel.png" class="centered-img"></img>
+
+--- #git11 bg:url(assets/img/rstudio_git_history.png) bg-repeat:no-repeat bg-position:center
+
 
 --- #reference
 
