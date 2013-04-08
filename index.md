@@ -9,25 +9,17 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 
---- #aboutme bg:url(assets/img/spaghetti.jpg) bg-repeat:no-repeat bg-position:center
-
 --- #content &vcenter
 
 ## Content
 
-## 1. Background
-## 2. Concepts
-## 3. Tools: RStudio and Git
+ 1. Background
+ 2. Concepts
+ 3. Tools: RStudio and Git
 
---- #motivation1
+--- #motivation1 bg:url(assets/img/motivation_composite.png) bg-repeat:no-repeat bg-position:center
 
-## Slide 2
-
-> 1. Point 1
-> 2. Point 2
-> 3. Point 3
-
---- #motivation2
+## My own PhD
 
 --- #open-science &twocol w1:50% w2:50%
 
@@ -61,27 +53,13 @@ mode        : selfcontained # {standalone, draft}
 
 <img src="assets/img/wolkowich_et_al_data_sharing.png" class="centered-img" title="Wolkowich et al. 2012"></img>
 
-Wolkovich et al. (2012)
+Wolkovich et al. 2012
 
 --- #problems2
 
 <img src="assets/img/peng_comp_repro.png" class="centered-img" title="Peng 2011"></img>
 
 Peng 2011
-
---- #problems3
-
-<img src="assets/img/morris_and_wills_nature1.png" class="centered-img" title="Mounce and Willis 2011"></img>
-
-<img src="assets/img/morris_and_wills_nature2.png" class="centered-img" title="Mounce and Willis 2011"></img>
-
-Mounce and Willis (2011)
-
---- #problems4
-
-<img src="assets/img/van_noorden_nature.png" class="centered-img" title="van Noorden 2011"></img>
-
-van Noorden 2011
 
 --- #problems5
 
