@@ -237,6 +237,9 @@ Ram, 2013
 
 --- #git11 bg:url(assets/img/rstudio_git_history.png) bg-repeat:no-repeat bg-position:center
 
+--- #thanks &vcenter
+
+**Thank you!**
 
 --- #reference .reference
 
