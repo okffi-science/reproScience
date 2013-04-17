@@ -1,7 +1,7 @@
 ### Reproducible research: concepts and tools
 
 * This presentation is a brief introduction to reproducible research and some of the tools useful
-* See presentation at http://okffi-science.github.io/reproScience/
+* See presentation at http://okffi-science.github.io/reproScience/ (best viewed with Google Chrome/Chromium)
 
 ### Authors
 
